@@ -5,6 +5,8 @@
         "iris.script": "objectscript"
       },
     "objectscript.conn" :{
+      "active": true,
+      "server": "local_dc",
       "ns": "IRISAPP",
       "username": "_SYSTEM",
       "password": "SYS",
@@ -16,9 +18,8 @@
         "Dashboards Angular": "http://localhost:${port}/dsw/index.html#/IRISAPP/",
         "Dashboards Portal": "http://localhost:${port}/csp/irisapp/_DeepSee.UserPortal.Home.zen",
         "Analyzer": "http://localhost:${port}/csp/irisapp/_DeepSee.UserPortal.Analyzer.zen",
-        "Architect":"http://localhost:${port}/csp/irisapp/_DeepSee.UI.Architect.zen?$NAMESPACE=IRISAPP"
-        
-    }
+        "Architect": "http://localhost:${port}/csp/irisapp/_DeepSee.UI.Architect.zen?$NAMESPACE=IRISAPP"
+      }
     }
 
 }
